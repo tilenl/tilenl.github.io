@@ -1,7 +1,9 @@
+<!--I made this:)-->
 <!DOCTYPE html>
 <head>
   <title>Hi there! 👋</title>
   <meta charset="UTF-8" />
+  <!--Using bootstrap, cause it's easy-->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -13,40 +15,49 @@
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"
   ></script>
+  <!--Pixel font, AWESOME!-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <!--Colors proudly sponsored by Coolors.co-->
+  <style>
+    .background-black {
+      background-color: #393105;
+    }
+    .yellow {
+      color: #f2dc5d;
+    }
+    .dark-yellow {
+      color: #edcd1d;
+    }
+    .orange {
+      color: #f2a359;
+    }
+    .grey {
+      color: #d1d5de;
+    }
+    .dark-grey {
+      color: #b7baa0;
+    }
+    .text-color {
+      color: #7123a9;
+    }
+    .margin-top-3 {
+      margin-top: top 30px;
+    }
+  </style>
 </head>
-<body>
-  <div class="container-small p-5 border border-primary">
-    <div class="row justify-content-md-center">
-      <!--Scrollspy element-->
-      <div class="col col-md-auto border border-danger">
-        <ul class="nav nav-pills nav-pills-icons flex-column" role="tablist">
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="#about"
-            >
-              About
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects" role="tab" data-toggle="tab">
-              Projects
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--Text-->
-      <div class="col-md-9 col-lg-9 border border-danger">
-        <div data-bs-spy="scroll" >
-          <div id= "About">
-            <h1>Hello! My name is Tilen</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Curabitur vitae nunc sed velit dignissim sodales. Massa placerat duis ultricies lacus sed turpis tincidunt id. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ante metus dictum at tempor commodo. Eget arcu dictum varius duis at. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Tincidunt dui ut ornare lectus sit amet est placerat. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Convallis a cras semper auctor neque.</p>
-          </div>
+<body class="background-black" style="font-family: 'Press Start 2P', cursive">
+  <div class="container p-5">
+    <row>
+      <p class="col h1 yellow">Tilen Lampret</p>
+      <p class="h6 yellow">Game developer and musician</p>
+    </row>
+    <row>
+      <div class="mx-auto dark-grey">Hello there</div>
 
-        </div>
-      </div>
-    </div>
+    </row>
   </div>
 </body>
