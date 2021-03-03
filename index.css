@@ -10,11 +10,9 @@ body {
 header {
   height: 3em;
   width: 100%;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-                0 2px 2px rgba(0,0,0,0.11), 
-                0 4px 4px rgba(0,0,0,0.11), 
-                0 8px 8px rgba(0,0,0,0.11), 
-                0 16px 16px rgba(0,0,0,0.11);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11);
   position: fixed;
   padding-bottom: 40px;
   display: flex;
@@ -30,6 +28,9 @@ header > h1 {
 }
 
 footer {
+  position: absolute;
+  bottom: zero;
+  width: 100%;
   text-align: center;
   color: rgb(141, 141, 141);
 }
@@ -130,7 +131,7 @@ card > h1 {
 .date {
   /* Position the date div to bottom of the card */
   position: absolute;
-  bottom:0;
+  bottom: 0;
 
   /* Styling, so it looks in place*/
   text-align: center;
