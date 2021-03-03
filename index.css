@@ -2,9 +2,15 @@
 
 html,
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -28,10 +34,9 @@ header > h1 {
 }
 
 footer {
-  position: absolute;
-  bottom: zero;
   width: 100%;
   text-align: center;
+  margin-top: auto;
   color: rgb(141, 141, 141);
 }
 
