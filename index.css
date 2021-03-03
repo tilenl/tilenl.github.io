@@ -22,34 +22,33 @@ card {
   margin-right: 2.5%;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 300px;
+  width: 200px;
   height: 300px;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
   -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 card::after {
   content: "";
-  border-radius: 5px;
+  border-radius: 15px;
   position: absolute;
   z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   opacity: 0;
   -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 card:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 card:hover::after {
@@ -57,11 +56,8 @@ card:hover::after {
 }
 
 @media (max-width: 800px) {
-  card {
-    width: 70%;
-  }
   .card-holder {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -72,6 +68,7 @@ card:hover::after {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 div > card > p {
   height: 100%;
   width: 100%;
@@ -85,14 +82,18 @@ div > card > p {
 }
 
 card > img {
+  height: 40%;
   width: 100%;
-  height: 100%;
   position: absolute;
   z-index: 0;
-  border-radius: inherit;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
 }
 
 card > h1 {
-  font-size: 10px;
+  font-size: 20px;
   width: inherit;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transform: translateY(45%);
 }
