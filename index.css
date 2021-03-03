@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-html, * {
+html, body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -39,8 +39,9 @@ card {
   margin-bottom: 20px;
   width: 200px;
   height: 300px;
-  background-color: #fff;
   border-radius: 15px;
+
+  background-color: #fff;
   box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -97,21 +98,30 @@ card > img {
 card > h1 {
   font-size: 20px;
   text-align: center;
-
+  margin-top: 15px;
   color: rgb(0, 0, 0);
-  transform: translateY(20px);
 }
 
-card > p {
+.desc {
   color: rgb(77, 77, 77);
   text-align: center;
-  transform: translateY(30px);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.date > p {
+  margin-top: 13px;
 }
 
 .date {
-  color: rgb(0, 0, 0);
-  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  height: 48px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
