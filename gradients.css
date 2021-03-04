@@ -1,25 +1,47 @@
 /*
  *  Background styles!!!
 */
-.sunset-beach {
+.sunset-beach > div.gradient {
   background: linear-gradient(60deg,
     #a770ef 10%,
     #cf8bf3 40%,
     #fdb99b 100%
   );
 }
+.sunset-beach > h1 {
+  color: #6029a8;
+}
+.sunset-beach > p {
+  color: #8237aa;
+}
+
+
 .disco {
   background: linear-gradient(120deg,
     #4ecdc4 10%,
     #556270 100%
   );
 }
+.disco > h1 {
+  color: #2a3b4e;
+}
+.disco > p {
+  color: #3c4f64;
+}
+
+
+
 .limenade {
   background: linear-gradient(120deg,
     #a1ffce 25%,
     #faffd1 100%
   );
 }
+
+
+
+
+
 .jupiter {
   background: linear-gradient(120deg,
     #ffd89b 10%,
