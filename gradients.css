@@ -1,7 +1,7 @@
 /*
  *  Background styles!!!
 */
-.sunset-beach > div.gradient {
+.sunset-beach {
   background: linear-gradient(60deg,
     #a770ef 10%,
     #cf8bf3 40%,
