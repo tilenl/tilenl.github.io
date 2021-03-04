@@ -1,0 +1,70 @@
+/*
+ *  Background styles!!!
+*/
+.sunset-beach {
+  background: linear-gradient(60deg,
+    #a770ef 10%,
+    #cf8bf3 40%,
+    #fdb99b 100%
+  );
+}
+.disco {
+  background: linear-gradient(120deg,
+    #4ecdc4 10%,
+    #556270 100%
+  );
+}
+.limenade {
+  background: linear-gradient(120deg,
+    #a1ffce 25%,
+    #faffd1 100%
+  );
+}
+.jupiter {
+  background: linear-gradient(120deg,
+    #ffd89b 10%,
+    #19547b 100%
+  );
+}
+.sun-on-the-horizon {
+  background: linear-gradient(90deg,
+    #fceabb 10%,
+    #f8b500 100%
+  );
+}
+.peach {
+  background: linear-gradient(30deg,
+    #fcdf8a 10%,
+    #f38381 100%
+  );
+}
+.ocean {
+  background: linear-gradient(190deg,
+    #0ff0b3 10%,
+    #036ed9 100%
+  );
+}
+.leaf-green {
+  background: linear-gradient(190deg,
+    #c3ec52 10%,
+    #0ba29d 100%
+  );
+}
+.grey {
+  background: linear-gradient(120deg,
+    #e3e3e3 10%,
+    #5d6874 100%
+  );
+}
+.orange {
+  background: linear-gradient(190deg,
+    #f2d50f 10%,
+    #da0641 100%
+  );
+}
+.violet-red {
+  background: linear-gradient(130deg,
+    #f65599 10%,
+    #4d0316 100%
+  );
+}

@@ -120,6 +120,13 @@ card > h1 {
   color: rgb(0, 0, 0);
 }
 
+.gradient {
+  height: 40%;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+
+
 .desc {
   color: rgb(77, 77, 77);
   text-align: center;
